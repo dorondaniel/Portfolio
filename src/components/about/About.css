@@ -1,0 +1,57 @@
+.About {
+    margin: 50px auto;
+    height: 600px;
+    width: 750px;
+    background: black;
+    box-shadow: -40px 20px 10px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+}
+
+.About .Content {
+    font-family: monospace;
+    font-size: large;
+    letter-spacing: 0.12em;
+    color: #00ff00;
+    padding: 2em;
+    height: 100%; /* Ensures Content takes full height of About */
+    overflow-y: auto; /* Enables scrolling within Content */
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+}
+
+.Hollow {
+    height: 450px;
+    width: 670px;
+    border-width: 1.5px;
+    border-color: #00ff00;
+    border-style: solid;
+    padding: 0.4em;
+    overflow-y: auto; /* Enables scrolling within Hollow */
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+}
+
+.Hollow::-webkit-scrollbar {
+    display: none; 
+}
+
+.About .Content .Hollow .Code p {
+    line-height: 1.5em;
+    color: azure;
+}
+
+.About .Content .Hollow .Code p #keyword {
+    color: #00ff00;
+}
+
+.About .Content .Hollow .Code p #value {
+    color: #3572EF;
+}
+
+.About .Content .Hollow .Code p #func {
+    color: crimson;
+}
+
+.About .Content .Hollow .Code p #int {
+    color: #e6ef35;
+}

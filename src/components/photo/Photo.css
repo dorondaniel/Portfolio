@@ -1,0 +1,13 @@
+.Photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.Photo img {
+    max-width: 28%;
+    max-height: 20%;
+    height: auto;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
