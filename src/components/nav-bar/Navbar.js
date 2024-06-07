@@ -7,7 +7,7 @@ const Navbar = () => {
             <li><a href='/'>About</a></li>
             <li><a href='/'>Contact</a></li>
             <li><a href='/'>Resume</a></li>
-            <li><a href='https://github.com/dorondaniel' target='_blank'>Projects</a></li>
+            <li><a href='https://github.com/dorondaniel' target='_blank' rel="noopener noreferrer">Projects</a></li>
         </nav>
      );
 }

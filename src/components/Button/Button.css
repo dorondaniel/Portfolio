@@ -1,0 +1,25 @@
+.custom-button {
+    font-family: Rye;
+    height: 48px;
+    width: 180px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #FBB537;
+    background-color: #000;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 32px;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+    border: #FBB537;
+    border-style: double;
+  }
+  
+  .custom-button:hover {
+    background-color: #FBB537;
+    color: #000;
+    border: #000;
+    border-style: solid;
+  }
+  
+ 

@@ -1,0 +1,87 @@
+.Contactform {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 50vh;
+    padding: 40px;
+    margin-bottom: 60px;
+    margin-right: 60px;
+}
+
+.Contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: auto;
+}
+
+.ContactItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: Rye;
+    letter-spacing: 0.1rem;
+}
+
+
+.Contacts img {
+    width: 30px;
+    height: 30px;
+    margin-left: 150px;
+    margin-right: 40px;
+}
+
+.det {
+    color: #FBB537;
+    text-decoration: none;
+    margin-left: 10px;
+    filter: drop-shadow(0px 15px 15px rgba(0, 0, 0, 1));
+}
+
+.det:hover{
+    color: azure;
+    filter: drop-shadow(0px 15px 15px rgba(0, 0, 0, 1));
+}
+  
+.Illus img {
+    width: 320px;
+    height: 300px;
+    margin-bottom: 10px;
+    animation: floating 2s ease-in-out infinite;
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.5));
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0);
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.5));
+  }
+  50% {
+    transform: translateY(-25px);
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.3));
+  }
+  100% {
+    transform: translateY(0);
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.5));
+  }
+}
+
+.Cblock{
+    height: 18vh;
+    padding: 10px;
+    background-color: #000000;
+    font-family: Rye;
+    color: #FBB537;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Cblock h2{
+    margin: 0%;
+    font-size: 36px;
+    letter-spacing: 3px;
+}

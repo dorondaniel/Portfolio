@@ -1,9 +1,9 @@
 .About {
     margin: 50px auto;
-    height: 600px;
-    width: 750px;
-    background: black;
-    box-shadow: -40px 20px 10px rgba(0, 0, 0, 0.3);
+    height: 85vh;
+    width: 50vw;
+    background: #000000;
+    box-shadow: 40px 20px 10px rgba(0, 0, 0, 0.8);
     box-sizing: border-box;
 }
 
@@ -19,14 +19,40 @@
     -ms-overflow-style: none;
 }
 
+.Block{
+    height: 28vh;
+    padding: 10px;
+    background-color: #000000;
+    font-family: Rye;
+    color: #FBB537;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Block h2{
+    margin: 0%;
+    font-size: 36px;
+    letter-spacing: 3px;
+}
+.Block p{
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 1%;
+    text-align: center;
+    line-height: 35px;
+    font-size: larger;
+}
+
 .Hollow {
-    height: 450px;
-    width: 670px;
+    height: 60vh;
+    width: 45vw;
     border-width: 1.5px;
     border-color: #00ff00;
     border-style: solid;
     padding: 0.4em;
-    overflow-y: auto; /* Enables scrolling within Hollow */
+    overflow-y: auto;
     scrollbar-width: none; 
     -ms-overflow-style: none;
 }
@@ -55,3 +81,6 @@
 .About .Content .Hollow .Code p #int {
     color: #e6ef35;
 }
+.About .Content .Hollow .Code p #symbol{
+    color: azure;
+} 

@@ -1,32 +1,88 @@
-.App{
-  
-  margin-left: 8px;
+.App {
+  position: relative;
   height: 100vh;
   overflow-y: auto;
   scrollbar-width: none; 
   -ms-overflow-style: none;
-  
 }
 
 .App::-webkit-scrollbar {
   display: none; 
 }
-.Logo{
+
+.App::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(/cow.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: scale(1.1); 
+  filter: blur(0.5px); /* Adjust the blur radius as needed */
+  z-index: -1; /* Ensure the background is behind all other content */
+}
+
+.Logo {
+  width: 100vw;
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+  -webkit-text-stroke-color: #FBB537;
+  -webkit-text-stroke-width: 0.001em;
   display: flex;
   justify-content: center;
   align-items: center;
   letter-spacing: 3.5px;
-  color: brown;
-  font-family: monospace;
+  color: #000;
+  font-family: Rye;
   font-size: 42px;
   cursor: default;
+  position: relative;
+  margin: 0%;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  z-index: 1; /* Ensure the logo is above the blurred background */
 }
-.Logo span{
-  color: black;
+
+.Logo span {
+  color: #FBB537;
+  -webkit-text-stroke-color: #000;
+  -webkit-text-stroke-width: 0.001em;
 }
-.Logo:hover{
-  color: black;
+
+.Logo:hover {
+  color: #FBB537;
+  -webkit-text-stroke-color: #000;
+  -webkit-text-stroke-width: 0.001em;
 }
-.Logo:hover span{
-  color: brown;
+
+.Logo:hover span {
+  color: #000;
+  -webkit-text-stroke-color: #FBB537;
+  -webkit-text-stroke-width: 0.001em;
 }
+
+.photo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons-left, .buttons-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.buttons-left {
+  margin-right: 20px;
+}
+
+.buttons-right {
+  margin-left: 20px;
+}
+

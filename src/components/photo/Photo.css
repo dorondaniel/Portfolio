@@ -2,12 +2,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
 }
 
 .Photo img {
-    max-width: 28%;
-    max-height: 20%;
+    max-width: 60%;
+    max-height: 60%;
     height: auto;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+    animation: waving 3s ease-in-out infinite;
+    transform-origin: top center;
+}
+
+@keyframes waving {
+    0% {
+        transform: rotate3d(0, 0, 10, 5deg);
+    }
+    50% {
+        transform: rotate3d(20, 20, 20, -5deg);
+    }
+    100%{
+        transform: rotate3d(0, 0, 15, 5deg);
+    }
+    
 }
