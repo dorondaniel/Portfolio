@@ -5,10 +5,10 @@
 }
 
 .Photo img {
-    max-width: 60%;
-    max-height: 60%;
+    max-width: 32vw;
+    max-height: 85vh;
     height: auto;
-    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+    filter: drop-shadow(1.4005vh 1.4005vh 1.4005vh rgba(0, 0, 0, 0.8));
     animation: waving 3s ease-in-out infinite;
     transform-origin: top center;
 }

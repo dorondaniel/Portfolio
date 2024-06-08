@@ -1,5 +1,4 @@
 import './App.css';
-import Navbar from './components/nav-bar/Navbar';
 import About from './components/about/About';
 import Block from './components/about/Block';
 import React, { useRef } from 'react';

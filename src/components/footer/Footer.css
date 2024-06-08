@@ -4,9 +4,9 @@
     align-items: flex-end;
     justify-content: flex-end;
     height: 50vh;
-    padding: 40px;
-    margin-bottom: 60px;
-    margin-right: 60px;
+    padding: 5.602vh;
+    margin-bottom: 8.4033vh;
+    margin-right: 3.90625vw;
 }
 
 .Contacts {
@@ -20,57 +20,57 @@
 .ContactItem {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 2.8011vh;
     font-family: Rye;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.104167vw;
 }
 
 
 .Contacts img {
-    width: 30px;
-    height: 30px;
-    margin-left: 150px;
-    margin-right: 40px;
+    width: 1.953125vw;
+    height: 4.2017vh;
+    margin-left: 9.765625vw;
+    margin-right: 2.6041vw;
 }
 
 .det {
     color: #FBB537;
     text-decoration: none;
-    margin-left: 10px;
-    filter: drop-shadow(0px 15px 15px rgba(0, 0, 0, 1));
+    margin-left: 0.651vw;
+    filter: drop-shadow(0vh 2.1008vh 2.1008vh rgba(0, 0, 0, 1));
 }
 
 .det:hover{
     color: azure;
-    filter: drop-shadow(0px 15px 15px rgba(0, 0, 0, 1));
+    filter: drop-shadow(0vh 2.1008vh 2.1008vh rgba(0, 0, 0, 1));
 }
   
 .Illus img {
-    width: 320px;
-    height: 300px;
-    margin-bottom: 10px;
+    width: 20.834vw;
+    height: 42.0168vh;
+    margin-bottom: 1.4005vh;
     animation: floating 2s ease-in-out infinite;
-    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(0vh 1.4005vh 1.4005vh rgba(0, 0, 0, 0.5));
 }
 
 @keyframes floating {
   0% {
     transform: translateY(0);
-    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(0vh 1.4005vh 1.4005vh rgba(0, 0, 0, 0.5));
   }
   50% {
     transform: translateY(-25px);
-    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.3));
+    filter: drop-shadow(0vh 1.4005vh 1.4005vh rgba(0, 0, 0, 0.3));
   }
   100% {
     transform: translateY(0);
-    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(0vh 1.4005vh 1.4005vh rgba(0, 0, 0, 0.5));
   }
 }
 
 .Cblock{
     height: 18vh;
-    padding: 10px;
+    padding: 1.4005vh;
     background-color: #000000;
     font-family: Rye;
     color: #FBB537;
@@ -81,7 +81,7 @@
 }
 
 .Cblock h2{
-    margin: 0%;
-    font-size: 36px;
-    letter-spacing: 3px;
+    margin: 0vh;
+    font-size: 2.871875vw;
+    letter-spacing: 0.1953125vw;
 }
