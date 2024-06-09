@@ -50,8 +50,7 @@ const About = () => {
                         &emsp;&emsp;&emsp;&emsp;to = <span id="value">"Apr 2024"</span><br/>
                         &emsp;&emsp;&emsp;&emsp;link = <span id="value">"https://github.com/dorondaniel/BRING-OFF"</span><br/><br/>
 
-                        &emsp;&emsp;&emsp;&emsp;<span id="keyword">print</span>&#40;<span id="value">f"</span>&#123;proj_name&#125;, <span id="value">From: </span>&#123;
-                        from&#125;, <span id="value">To: </span>&#123;to&#125;, &#123;link&#125;<span id="value">"</span>&#41;<br/><br/>
+                        &emsp;&emsp;&emsp;&emsp;<span id="keyword">print</span>&#40;<span id="value">f"</span>&#123;proj_name&#125;, <span id="value">From: </span>&#123;from&#125;, <span id="value">To: </span>&#123;to&#125;, &#123;link&#125;<span id="value">"</span>&#41;<br/><br/>
 
                         &emsp;&emsp;&emsp;&emsp;proj_2_name = <span id="value">"Muscle Cramp Detection ML Model"</span><br/>
                         &emsp;&emsp;&emsp;&emsp;from = <span id="value">"Aug 2023"</span><br/>
@@ -59,8 +58,7 @@ const About = () => {
                         &emsp;&emsp;&emsp;&emsp;link = <span id="value">"https://github.com/dorondaniel/
                         <br/>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;MUSCLE_CRAMP_DETECTION_ML_MODEL"</span><br/><br/>
 
-                        &emsp;&emsp;&emsp;&emsp;<span id="keyword">print</span>&#40;<span id="value">f"</span>&#123;proj_name&#125;, <span id="value">From: </span>&#123;
-                        from&#125;, <span id="value">To: </span>&#123;to&#125;, &#123;link&#125;<span id="value">"</span>&#41;<br/><br/>
+                        &emsp;&emsp;&emsp;&emsp;<span id="keyword">print</span>&#40;<span id="value">f"</span>&#123;proj_name&#125;, <span id="value">From: </span>&#123;from&#125;, <span id="value">To: </span>&#123;to&#125;, &#123;link&#125;<span id="value">"</span>&#41;<br/><br/>
 
 
                         </p>
