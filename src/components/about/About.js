@@ -14,7 +14,7 @@ const About = () => {
                         <p><span id="keyword">class </span>DoronDaniel:<br/>
                         &emsp;&emsp;<span id="keyword">def </span><span id="func">__init__</span>(self):<br/>
                         &emsp;&emsp;&emsp;&emsp;<span id="keyword">self</span>.name=<span id="value">"Doron N C Daniel"</span><br/>
-                        &emsp;&emsp;&emsp;&emsp;<span id="keyword">self</span>.qualification=<span id="value">"B.E Computer Science and Engineering"</span><br/>
+                        &emsp;&emsp;&emsp;&emsp;<span id="keyword">self</span>.qualification=<span id="value">"B.E Computer Science and                         Engineering"</span><br/>
                         &emsp;&emsp;&emsp;&emsp;<span id="keyword">self</span>.gender=<span id="value">"Male"</span><br/>
                         &emsp;&emsp;&emsp;&emsp;<span id="keyword">self</span>.ph_number=<span id="value">"+91-9940441675"</span><br/>
                         &emsp;&emsp;&emsp;&emsp;<span id="keyword">self</span>.email=<span id="value">"idorondaniel@gmail.com"</span><br/><br/>
