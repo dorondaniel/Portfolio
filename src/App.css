@@ -55,14 +55,14 @@
 }
 
 .Logo:hover {
-  color: #FBB537;
-  -webkit-text-stroke-color: #000;
+  color: #000;
+  -webkit-text-stroke-color: #FBB537;
   -webkit-text-stroke-width: 0.00224vh;
 }
 
 .Logo:hover span {
-  color: #000;
-  -webkit-text-stroke-color: #FBB537;
+  color: #FBB537;
+  -webkit-text-stroke-color: #000;
   -webkit-text-stroke-width: 0.00224vh;
 }
 
