@@ -29,13 +29,13 @@
 .Logo {
   width: 100vw;
   filter: drop-shadow(1.4005vh 1.4005vh 1.4005vh rgba(0, 0, 0, 0.8));
-  -webkit-text-stroke-color: #FBB537;
+  -webkit-text-stroke-color: #000;
   -webkit-text-stroke-width: 0.00224vh;
   display: flex;
   justify-content: center;
   align-items: center;
   letter-spacing: 0.227vw;
-  color: #000;
+  color: #FBB537;
   font-family: Rye;
   font-size: 3.734375vw;
   cursor: default;
@@ -48,8 +48,8 @@
 }
 
 .Logo span {
-  color: #FBB537;
-  -webkit-text-stroke-color: #000;
+  color: #000000;
+  -webkit-text-stroke-color: #FBB537;
   -webkit-text-stroke-width: 0.00224vh;
   pointer-events: auto;
 }
